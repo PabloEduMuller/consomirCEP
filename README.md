@@ -23,6 +23,8 @@ Como rodar?
    cd consomeCEP
 3.Compile
   mvn clean install
+4.Execute o programa
+ mvn exec:java -Dexec.mainClass="br.unipar.programacaoweb.ConsomeCEP"
 
 Pré-requisitos
 - Java
@@ -31,7 +33,3 @@ Pré-requisitos
 - Maven
 - JSON
 
-Passos
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/consomeCEP.git
